@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #282828 0%, #282828 45%, #262626 45%, #262626  100%);
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .about-title {
+    font-size: 48px;
+    font-family: 'Cuprum', sans-serif;
+    color: #ffffff;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #cccccc;
+    margin-bottom: 16px;
+    text-align: justify;
+  }

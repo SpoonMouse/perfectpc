@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #282828 0%, #282828 45%, #262626 45%, #262626  100%);
+  }
+
+.faq-title {
+    font-size: 36px;
+    font-family: 'Cuprum', sans-serif;
+    color: #ffffff;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .faq-item {
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+  }
+  
+  .faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    user-select: none;
+    position: relative;
+    padding-left: 24px;
+  }
+  
+  
+  .faq-answer {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: #cccccc;
+    margin-top: 8px;
+    padding-left: 24px;
+    margin-left: 9rem;
+    padding: 2rem;
+  }
+
+  summary {
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 9rem;
+    padding: 2rem;
+  }
+
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .faq-item summary {
+    list-style: none;
+  }
+  
+  .faq-question::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s;
+  }
+  
+  .faq-item[open] .faq-question::before {
+    transform: rotate(90deg);
+  }
+
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .faq-item summary::marker {
+    display: none;
+  }
